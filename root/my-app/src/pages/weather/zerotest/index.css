@@ -1,0 +1,27 @@
+
+
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./testImages/NotoSansJP-VariableFont_wght.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+.myFont {
+    font-family: "MyFont", Times, serif;
+}
+
+.myImage img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.myFloatingText {
+    position: relative;
+    top: 5.8em;
+    left: 2em;
+    color: white;
+}
